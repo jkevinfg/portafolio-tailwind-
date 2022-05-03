@@ -1,6 +1,7 @@
 import React from 'react';
-import WorkImg from '../assets/static/workImg.jpeg';
-import realEstate from '../assets/static/realestate.jpg';
+import InkaPelis from '../assets/static/inkapelis.png';
+import AgendApp from '../assets/static/agendapp.png'
+import Pokedex from '..//assets/static/pokedex.png'
 
 const Projects = () => {
   return (
@@ -18,21 +19,21 @@ const Projects = () => {
 
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${InkaPelis})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
+              <p className='text-2xl font-bold text-white tracking-wider text-center'>
+                 Web Movies - NodeJS MongoDB ReactJS Hooks Redux
+              </p>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://inkapelis.herokuapp.com/' target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Link
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/jkevinfg/InkaPelis' target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -41,21 +42,21 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${AgendApp})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
+              <p className='text-2xl font-bold text-white tracking-wider text-center'>
+              Personal Agenda - NodeJS MongoDB AWS
+              </p>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://agenda-app-mongo.herokuapp.com/'  target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Link
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/jkevinfg/AgendApp'  target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -65,21 +66,21 @@ const Projects = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${Pokedex})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
+              <p className='text-2xl font-bold text-white tracking-wider text-center'>
+                Pokedex - JavaScript HTML CSS Bootstrap
+              </p>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://jkevinfg.github.io/Pokedex/' target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Link
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/jkevinfg/Pokedex' target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -87,76 +88,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${realEstate})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-            {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${realEstate})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+       
         </div>
       </div>
     </div>
