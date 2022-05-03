@@ -7,7 +7,7 @@ import {
   FaDev,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { Link } from 'react-scroll';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -29,13 +29,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
+          <Link to='/projects' smooth={true} duration={500}>
             Projects
-          </Link>
-        </li>
-        <li>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
           </Link>
         </li>
       </ul>
@@ -54,26 +49,20 @@ const Navbar = () => {
         }
       >
         <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='/' smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='/skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='/projects' smooth={true} duration={500}>
             Projects
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
           </Link>
         </li>
       </ul>
