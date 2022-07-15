@@ -6,7 +6,7 @@ import Postgresql from '../assets/static/postgresql.png';
 import Mongo from '../assets/static/mongo.png';
 import Linux from '../assets/static/linux.png';
 import Python from '../assets/static/python.png';
-import PHP from '../assets/static/php.png'
+import Ruby from '../assets/static/ruby.png'
 
 const Skills = () => {
   return (
@@ -18,34 +18,34 @@ const Skills = () => {
               <p className='py-4'>These are the technologies I've worked with</p>
           </div>
 
-          <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>              
+          <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>        
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Ruby} alt="HTML icon" />
+                  <p className='my-4'>Ruby on Rails</p>
+              </div>     
              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
-                  <p className='my-4'>NODE JS</p>
+                  <p className='my-4'>NodeJS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
-                  <p className='my-4'>REACT</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={PHP} alt="HTML icon" />
-                  <p className='my-4'>PHP</p>
+                  <p className='my-4'>ReactJS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Python} alt="HTML icon" />
-                  <p className='my-4'>PYTHON</p>
+                  <p className='my-4'>Python</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
-                  <p className='my-4'>MONGO DB</p>
+                  <p className='my-4'>MongoDB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Mysql} alt="HTML icon" />
-                  <p className='my-4'>MYSQL</p>
+                  <p className='my-4'>MySQL</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Postgresql} alt="HTML icon" />
-                  <p className='my-4'>POSTGRESQL</p>
+                  <p className='my-4'>PostgreSQL</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Linux} alt="HTML icon" />
