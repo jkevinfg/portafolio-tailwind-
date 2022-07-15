@@ -5,7 +5,7 @@ import Pokedex from '..//assets/static/pokedex.png'
 
 const Projects = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#1a324c]'>
+    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#1B2430]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
@@ -27,6 +27,7 @@ const Projects = () => {
               <p className='text-2xl font-bold text-white tracking-wider text-center'>
                  Web Movies - NodeJS MongoDB ReactJS Hooks Redux
               </p>
+              
               <div className='pt-8 text-center'>
                 <a href='https://inkapelis.herokuapp.com/' target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>

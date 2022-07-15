@@ -14,7 +14,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#1a324c] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#1B2430] text-gray-300'>
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
@@ -96,14 +96,14 @@ const Navbar = () => {
                 </a>
             </li>
             */}
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://dev.to/jkevinfg' target="_blank"
             >
               Dev <FaDev size={30} />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
